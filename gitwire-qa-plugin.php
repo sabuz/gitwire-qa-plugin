@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Gitwire QA Test Plugin
  * Description: Scratch plugin used to QA gitwire's install/update/fatal-guard flows. Safe to delete.
- * Version: 1.0.3
+ * Version: 1.0.4
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -10,5 +10,5 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 add_action( 'admin_notices', function () {
-	echo '<div class="notice notice-info"><p>Gitwire QA test plugin v1.0.3 active (fixed).</p></div>';
+	echo '<div class="notice notice-info"><p>Gitwire QA test plugin v1.0.4 active (fixed).</p></div>';
 } );
